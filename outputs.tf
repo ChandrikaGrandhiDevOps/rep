@@ -5,7 +5,7 @@ output "azs" {
 output "vpc_id" {
   value = aws_vpc.main.id
 }
-
+//main
 output "public_subnet_ids" {
   value = aws_subnet.public[*].id
 }
